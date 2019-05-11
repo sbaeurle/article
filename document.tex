@@ -1,0 +1,27 @@
+\documentclass[
+	pdftex,
+	oneside,
+	12pt,
+	parskip=half,
+	footheight = 16pt,	
+	DIV=calc
+]{article}
+
+\input{shared-latex/packages}
+
+\usepackage[german]{babel}
+
+\input{shared-latex/person}
+\input{config}
+
+\begin{document}
+	
+	\section*{Article}
+
+	Some sample content~\cite{lit}.
+  
+    \printbibliography
+
+	\clearpage
+	
+\end{document}
